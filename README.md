@@ -1,4 +1,3 @@
-https://github.com/erickpaulus/text-line-segmentation.git
 The code in this repository was utilized for the publication mentioned below. [following publication is still under-reviewed](). If
 you find this code useful please cite our paper:
 
