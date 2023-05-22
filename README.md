@@ -63,11 +63,12 @@ If you want to segment all images within folder, you have to run the following c
 
 ```
 $ python run_LS.py 
+```
 
 or if you have set a certain folder
 
+```
 $ python run_LS.py -path datasets/Exp1-mixedPLM-GR 
-
 ```
 
 The `MODELS` folder consists of  several trained models for the palm leaf manuscripts datasets. This following model is set as default :
@@ -103,7 +104,7 @@ Testing :
 
 - http://amadi.univ-lr.fr/ICFHR2018_Contest/images/images/GT-ChallengeB-TrackMixed.zip
 
-If you need the mixed collection, please contact me to get the data.
+If you need the mixed collection, please contact us to get the data.
 
 It consists of 
 - Exp1-mixedPLM-GR -> put this folder in datasets folder for extracting text lines
