@@ -1,4 +1,4 @@
-The code in this repository was utilized for the publication mentioned below. [following publication is still under-reviewed](). If
+The code in this repository was utilized for the publication mentioned below, but [following publication is still under-reviewed](). If
 you find this code useful please cite our paper:
 
 ```
@@ -29,7 +29,7 @@ doi = ""
 ## Usage
 Below are guidelines for extracting text lines and reproducing the experiments.
 
-The `run_LS_singleImage.py`  script performs the text line segmentation of an input image using a trained model. The parameters of this script are the following:
+The `run_LS_singleImage.py`  script performs the text line segmentation of an input image using a trained model. Some parameters of this script are the following:
 
 
 | Parameter    | Default | Description                      |
@@ -41,14 +41,10 @@ The `run_LS_singleImage.py`  script performs the text line segmentation of an in
 | `-sigma` |  3       | Standard deviation for gaussian smoothing     |
 | `-modelpath` |  (*)       | Path to the model to load     |
 | `-w`         |  320    | Input window size                |
-| `-step`      |  -1     | Step size. -1 to use window size |
+| `-step`      |  128     | Step size  |
 | `-f`         |  16     | Number of filters                |
 | `-k`         |  5      | Kernel size                      |
 | `-drop`      |  0.2      | Dropout percentage               |
-
-
-
-> (*) By default, the model trained with all datasets will be used.
 
 
 For example, to segment the image `033_pp_ttp_01_001.jpg` which located in default folder path 'datasets/Exp1-mixedPLM-GR' you can run the following command:
@@ -74,11 +70,11 @@ $ python run_LS.py -path datasets/Exp1-mixedPLM-GR
 
 ```
 
-The `MODELS` folder includes the following trained models for the datasets evaluated:
+The `MODELS` folder consists of  several trained models for the palm leaf manuscripts datasets. This following model is set as default :
 
 * `MODELS/model_weights_DC5_palm_6_nb15_320x320_s128_drop0.2_f16_k5_s2_se1_e200_b10_esp.h5`
 
-please download in https://drive.google.com/drive/folders/1n8qx38BMhxSrgfkTJd1tfJsTJBT3UhdR?usp=sharing
+please download the models in this [url](https://drive.google.com/drive/folders/1n8qx38BMhxSrgfkTJd1tfJsTJBT3UhdR?usp=sharing)
 
 
 
@@ -107,8 +103,7 @@ Testing :
 
 - http://amadi.univ-lr.fr/ICFHR2018_Contest/images/images/GT-ChallengeB-TrackMixed.zip
 
-This is the data structure sample for Mixed collection
-- https://drive.google.com/drive/folders/1B87BmlwRno8ELcifkOKaoWz1QHDpLQ5A?usp=sharing
+If you need the mixed collection, please contact me to get the data.
 
 It consists of 
 - Exp1-mixedPLM-GR -> put this folder in datasets folder for extracting text lines
