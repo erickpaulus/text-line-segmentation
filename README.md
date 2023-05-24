@@ -104,7 +104,7 @@ Testing :
 
 - http://amadi.univ-lr.fr/ICFHR2018_Contest/images/images/GT-ChallengeB-TrackMixed.zip
 
-If you need the mixed collection, please contact us to get the data.
+If you need the complete mixed collection, please contact us to get the data.
 
 It consists of 
 - Exp1-mixedPLM-GR -> put this folder in datasets folder for extracting text lines
