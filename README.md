@@ -47,10 +47,10 @@ The `run_LS_singleImage.py`  script performs the text line segmentation of an in
 | `-drop`      |  0.2      | Dropout percentage               |
 
 
-For example, to segment the image `033_pp_ttp_01_001.jpg` which located in default folder path 'datasets/Exp1-mixedPLM-GR' you can run the following command:
+For example, to segment the image `CB-3-22-90-23.tif` which located in default folder path 'datasets/Exp1-mixedPLM-GR' you can run the following command:
 
 ```
-$ python run_LS_singleImage.py -fname 033_pp_ttp_01_001.jpg 
+$ python run_LS_singleImage.py -fname CB-3-22-90-23.tif 
 ```
 
 if  you have different folder path, please set the path parameter as well.
@@ -79,7 +79,7 @@ please download the models in this [url](https://drive.google.com/drive/folders/
 
 
 
-The folders of  dataset must have a specific name. Each collection there must be three folders, one with the suffix `-GR` with the input images in grayscale or RGB, and others with the suffix `-GT` and `-GT-Dat`  for the ground truth.
+The folders of  dataset must have a specific name. Each collection there must be two folders, one with the suffix `-GR` with the input images in grayscale or RGB, and others with the suffix `-GT` for the ground truth.
 
 
 
