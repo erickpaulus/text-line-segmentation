@@ -121,5 +121,5 @@ After installing the evaluator tool, it saves defaultly in C:\Program Files (x86
 - results/lines : consist of resulted image in Dat file
 
 ## Credit
-Thanks to Gallego for sharing the code for binarization process and some codes is adaped from https://github.com/ajgallego/document-image-binarization
+Thanks to Gallego for sharing the code for binarization process and some codes are adopted from https://github.com/ajgallego/document-image-binarization
 
