@@ -1,6 +1,6 @@
-keras
-matplotlib
-opencv-python
-Pillow
-scikit-image
-tensorflow
+keras==2.12.0
+matplotlib==3.7.1
+opencv-python==4.7.0.72
+Pillow==9.5.0
+scikit-image==0.20.0
+tensorflow==2.12.0
