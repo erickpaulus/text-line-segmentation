@@ -1,9 +1,8 @@
-The code in this repository was utilized for the publication mentioned below, but [following publication is still under-reviewed](). If
-you find this code useful please cite our paper:
+The code in this repository was utilized for the publication mentioned below, but [following publication is still under-reviewed](). 
 
 ```
 @article{paulus2023,
-title = "",
+title = "Text Line Extraction Strategy for Palm Leaf Manuscripts",
 author = "",
 journal = "",
 volume = "",
