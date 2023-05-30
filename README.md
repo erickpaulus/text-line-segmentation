@@ -18,7 +18,7 @@ doi = ""
 - [Usage](#usage)
 - [Datasets](#datasets)
 - [Evaluation Metrics](#evaluation-metrics)
-- [Acknowledgment](#acknowledgment)
+- [Acknowledgement](#acknowledgement)
 
 
 ## Installation
@@ -119,6 +119,6 @@ After installing the evaluator tool, it saves defaultly in C:\Program Files (x86
 - images : consist of ground truth image in bmp file
 - results/lines : consist of resulted image in Dat file
 
-## Acknowledgment
+## Acknowledgement
 Thanks to Gallego for sharing the code for binarization process and some codes are adopted from https://github.com/ajgallego/document-image-binarization
 
