@@ -1,15 +1,13 @@
-The code in this repository was utilized for the publication mentioned below, but [following publication is still under-reviewed](). 
+The code in this repository was utilized for the [publication mentioned](https://www.sciencedirect.com/science/article/pii/S0167865523002271) below. If you discover this code to be valuable, please reference our paper:
 
 ```
-@article{paulus2023,
-title = "Text Line Extraction Strategy for Palm Leaf Manuscripts",
-author = "",
-journal = "",
-volume = "",
-pages = "",
-year = "2023",
-issn = "",
-doi = ""
+@article{PAULUS2023,
+title = {Text line extraction strategy for palm leaf manuscripts},
+author = {Erick Paulus and Jean-Christophe Burie and Fons J. Verbeek},
+journal = {Pattern Recognition Letters},
+year = {2023},
+issn = {0167-8655},
+doi = {https://doi.org/10.1016/j.patrec.2023.08.007},
 }
 ```
 
