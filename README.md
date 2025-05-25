@@ -53,7 +53,7 @@ $ python run_LS_singleImage.py -fname CB-3-22-90-23.tif
 if  you have different folder path, please set the path parameter as well.
 
 ```
-$ python run_LS_singleImage.py - path <your folder path> -fname 033_pp_ttp_01_001.jpg 
+$ python run_LS_singleImage.py -path <your folder path> -fname 033_pp_ttp_01_001.jpg 
 ```
 
 If you want to segment all images within folder, you have to run the following command:
