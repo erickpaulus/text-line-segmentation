@@ -21,7 +21,12 @@ doi = {https://doi.org/10.1016/j.patrec.2023.08.007},
 
 ## Installation
 - create a virtual environtment 
-- pip install requirements.txt
+```
+conda create -n tls-env python=3.10
+conda activate tls-env
+
+```
+- pip install -r requirements.txt
 
 ## Usage
 Below are guidelines for extracting text lines and reproducing the experiments.
